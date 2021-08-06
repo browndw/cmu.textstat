@@ -25,3 +25,8 @@ Remotes:
     browndw/vnc,
     browndw/mda.biber,
     browndw/ngramr.plus
+Depends:
+    quanteda.extras,
+    vnc,
+    mda.biber,
+    ngramr.plus
