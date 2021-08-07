@@ -25,7 +25,7 @@ library(cmu.textstat)
 ```
 The main functions in the packages associated with **cmu.textstat** are described in the table below. The functions are designed to facilitate the analysis of textual data, assisting in the exploration of questions related to language variation and change, language use, and language structure.
 
-Many of the functions (though not all) were written to support the processes and procedures described by [Brezina in the required textbook](https://www.cambridge.org/core/books/statistics-in-corpus-linguistics/4E530F86B328B2287681AD240796D2CF), and reproduce
+Many of the functions (though not all) were written to support the processes and procedures described by [Brezina in the required textbook](https://www.cambridge.org/core/books/statistics-in-corpus-linguistics/4E530F86B328B2287681AD240796D2CF), and replicate many of [his web-based statistics tools](http://corpora.lancs.ac.uk/stats/toolbox.php) in an R environment.
 
 <table><tbody>
 <tr><td><a href=https://github.com/browndw/quanteda.extras target="_blank"><b>quanteda.extras</b></a></td>
