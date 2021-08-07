@@ -74,14 +74,24 @@ The main functions in the packages associated with **cmu.textstat** are describe
      <code>col_network()</code> </td>
 <td>Requires <b>collocation tables</b>. The function takes any number of collocations objects (output from the collocates_by_MI function) and generates a tidygraph data object for plotting collocational networks in ggraph.</td>
 </tr>
-<tr><td><a href=https://github.com/browndw/ngramr.plus target="_blank"><b> ngramr.plus </b></a></td>
+<tr><td><a href=https://github.com/browndw/ngramr.plus target="_blank"><b>ngramr.plus</b></a></td>
 <td></td></tr>
 <tr><td><b>Time series</b>
      </td>
 <td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/ngramr.plus/main/vignettes/introduction.html target="_blank">vignette</a></td>
 </tr>
 <tr><td>
-     <code>col_network()</code> </td>
-<td>Requires <b>collocation tables</b>. The function takes any number of collocations objects (output from the collocates_by_MI function) and generates a tidygraph data object for plotting collocational networks in ggraph.</td>
+     <code>google_ngram()</code> </td>
+<td>Requires a <b>vector of word forms</b>. This function extracts frequency data from Google Books' Ngram data and returns a data.frame of frequencies that can be used for analysis and plotting. Note that some of Google's data tables are multiple gigabytes in size, thus the function can take several minutes to run, partcularly for n-grams > 1.</td>
+</tr>
+<tr><td><a href=https://github.com/browndw/vnc target="_blank"><b>vnc </b></a></td>
+<td></td></tr>
+<tr><td><b>Time series</b>
+     </td>
+<td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/ngramr.plus/main/vignettes/introduction.html target="_blank">vignette</a></td>
+</tr>
+<tr><td>
+     <code>google_ngram()</code> </td>
+<td>Requires a <b>vector of word forms</b>. This function extracts frequency data from Google Books' Ngram data and returns a data.frame of frequencies that can be used for analysis and plotting. Note that some of Google's data tables are multiple gigabytes in size, thus the function can take several minutes to run, partcularly for n-grams > 1.</td>
 </tr>
 </tbody></table>
