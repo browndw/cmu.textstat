@@ -13,17 +13,19 @@ devtools::install_github("browndw/cmu.textstat")
 
 The package itself serves primarily as wrapper for 4 other packages, which **will install automatically** when you install **cmu.textstat**:
 
-1. [quanteda.extras](https://github.com/browndw/quanteda.extras)
-2. [ngramr.plus](https://github.com/browndw/ngramr.plus)
-3. [vnc](https://github.com/browndw/vnc)
-4. [mda.biber](https://github.com/browndw/mda.biber)
+1. quanteda.extras
+2. ngramr.plus
+3. vnc
+4. mda.biber
 
 When you load the **cmu.textstat** library, those 4 other packages will attach, giving you access to all of their functions.
 
 ```r
 library(cmu.textstat)
 ```
-The main functions in the packages associated with **cmu.textstat** are described in the table below. The functions are designed to facilitate the analysis of textual data 
+The main functions in the packages associated with **cmu.textstat** are described in the table below. The functions are designed to facilitate the analysis of textual data, assisting in the exploration of questions related to language variation and change, language use, and language structure.
+
+Many of the functions (though not all) 
 
 <table><tbody>
 <tr><td><a href=https://github.com/browndw/quanteda.extras target="_blank"><b>quanteda.extras</b></a></td>
