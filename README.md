@@ -78,6 +78,10 @@ The main functions in the packages associated with **cmu.textstat** are describe
 <td></td></tr>
 <tr><td><b>Time series</b>
      </td>
-<td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/quanteda.extras/main/vignettes/collocations_introduction.html target="_blank">vignette</a></td>
+<td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/ngramr.plus/main/vignettes/introduction.html target="_blank">vignette</a></td>
+</tr>
+<tr><td>
+     <code>col_network()</code> </td>
+<td>Requires <b>collocation tables</b>. The function takes any number of collocations objects (output from the collocates_by_MI function) and generates a tidygraph data object for plotting collocational networks in ggraph.</td>
 </tr>
 </tbody></table>
