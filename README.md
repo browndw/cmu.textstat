@@ -86,12 +86,16 @@ The main functions in the packages associated with **cmu.textstat** are describe
 </tr>
 <tr><td><a href=https://github.com/browndw/vnc target="_blank"><b>vnc </b></a></td>
 <td></td></tr>
-<tr><td><b>Time series</b>
+<tr><td><b>Variability-Based Neighbor Clustering</b>
      </td>
-<td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/ngramr.plus/main/vignettes/introduction.html target="_blank">vignette</a></td>
+<td><a href=http://htmlpreview.github.io/?https://raw.githubusercontent.com/browndw/vnc/main/vignettes/introduction.html target="_blank">vignette</a></td>
 </tr>
 <tr><td>
-     <code>google_ngram()</code> </td>
-<td>Requires a <b>vector of word forms</b>. This function extracts frequency data from Google Books' Ngram data and returns a data.frame of frequencies that can be used for analysis and plotting. Note that some of Google's data tables are multiple gigabytes in size, thus the function can take several minutes to run, partcularly for n-grams > 1.</td>
+     <code>vnc_scree()</code> </td>
+<td>Requires a <b>vector of (evenly spaced) time values</b> (e.g., years or decades) and a <b>vector of normalized values</b> (e.g., token frequencies per million words). The function produces a scree plot for identifying the number of clusters (or time periods) in a given time sequence.</td>
+</tr>
+<tr><td>
+     <code>vnc_clust()</code> </td>
+<td>Requires a <b>vector of (evenly spaced) time values</b> (e.g., years or decades) and a <b>vector of normalized values</b> (e.g., token frequencies per million words). The function produces an <b>hclust</b> object that clusters sequential times series data for ground-up periodization.</td>
 </tr>
 </tbody></table>
