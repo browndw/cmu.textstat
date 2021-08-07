@@ -111,6 +111,18 @@ The main functions in the packages associated with **cmu.textstat** are describe
 </tr>
 <tr><td>
      <code>mda_loadings()</code> </td>
-<td>Requires a <b>data.frame with 1 categorical variable</b> (formatted as a factor) and <b>mutliple continuous variables</b> (e.g., normalized frequencies syntactic features, functional categories, or lexical categories). function returns a data frame containing the dimension score for each document/text. Also included in the data structure are the means-by-group, which is used for plotting, and the factor loadings. The values are stored as attributes.</td>
+<td>Requires a <b>data.frame with 1 categorical variable</b> (formatted as a factor) and <b>mutliple continuous variables</b> (e.g., normalized frequencies syntactic features, functional categories, or lexical categories). The function returns a data frame containing the dimension score for each document/text. Also included in the data structure are the means-by-group, which is used for plotting, and the factor loadings. The values are stored as attributes.</td>
+</tr>
+<tr><td>
+     <code>stickplot_mda()</code> </td>
+<td>Requires an <b>mda object</b> produced by the mda_loadings() fuction. The function outputs a stickplot placing the means of each categorial variable along the specified dimension.</td>
+</tr>
+<tr><td>
+     <code>heatmap_mda()</code> </td>
+<td>Requires an <b>mda object</b> produced by the mda_loadings() fuction. The function combines a stickplot with a heatmap of the factor loadings relevant to the specified dimension.</td>
+</tr>
+<tr><td>
+     <code>boxplot_mda()</code> </td>
+<td>Requires an <b>mda object</b> produced by the mda_loadings() fuction. The function combines scaled vectors of the relevant factor loadings with sorted boxplots of the dimension scores by category.</td>
 </tr>
 </tbody></table>
