@@ -27,6 +27,8 @@ The main functions in the packages associated with **cmu.textstat** are describe
 
 Many of the functions (though not all) were written to support the processes and procedures described by [Brezina in the required textbook](https://www.cambridge.org/core/books/statistics-in-corpus-linguistics/4E530F86B328B2287681AD240796D2CF), and replicate many of [his web-based statistics tools](http://corpora.lancs.ac.uk/stats/toolbox.php) in an R environment.
 
+Many of the functions are designed to be used at the end of [a processing pipeline](https://programminghistorian.org/en/lessons/basic-text-processing-in-r). For our class, we will laregly rely on [tidyverse](https://www.tidyverse.org/) packages and [quanteda](http://quanteda.io/) for pre-processing, corpus creation, and tokenization.
+
 <table><tbody>
 <tr><td><a href=https://github.com/browndw/quanteda.extras target="_blank"><b>quanteda.extras</b></a></td>
 <td></td></tr>
