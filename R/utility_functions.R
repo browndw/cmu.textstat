@@ -27,8 +27,3 @@ from_play <- function(plays, extract = c("dialogue", "direction")) {
   return(plays)
 }
 
-#' This works for "not in" matching.
-#' Very simple, but handy.
-#' @export
-`%!in%` <- Negate(`%in%`)
-
