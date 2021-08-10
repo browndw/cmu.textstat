@@ -17,7 +17,8 @@ Depends:
     quanteda.extras,
     vnc,
     mda.biber,
-    ngramr.plus
+    ngramr.plus,
+    R (>= 2.10)
 Imports:
     xml2,
     stringr
