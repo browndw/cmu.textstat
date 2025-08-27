@@ -2,24 +2,23 @@
 % Please edit documentation in R/utility_functions.R
 \name{from_play}
 \alias{from_play}
-\title{This is a helper function for reading in the dialogue from Shakespeare plays
-and screenplays, which are formatted in very simple markup.
-With this function, either the dialogue or the direction can be
-execrated in bulk. It can also be used to extract the dialogue of specific characters.}
+\title{Read dialogue and stage directions from Shakespeare plays}
 \usage{
-from_play(plays, extract = c("dialogue", "direction"))
+from_play(plays, extract)
 }
 \arguments{
-\item{plays}{A readtext dataframe containing a doc_id column and a text column.}
+\item{plays}{A readtext dataframe containing a doc_id column and a text
+column.}
 
-\item{extract}{A character vector specifying what is to be extracted like 'dialogue' or 'romeo'.}
+\item{extract}{A character vector specifying what is to be extracted:
+'dialogue' or 'direction' for dialogue or stage directions, or the name of
+a character (e.g., 'romeo') for one character's dialogue only.}
 }
 \value{
 A readtext dataframe with the extracted text.
 }
 \description{
-This is a helper function for reading in the dialogue from Shakespeare plays
-and screenplays, which are formatted in very simple markup.
-With this function, either the dialogue or the direction can be
-execrated in bulk. It can also be used to extract the dialogue of specific characters.
+The Shakespeare plays and screenplays are formatted in very simple markup.
+With this function, either the dialogue or the direction can be execrated in
+bulk. It can also be used to extract the dialogue of specific characters.
 }
