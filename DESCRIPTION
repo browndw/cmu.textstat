@@ -17,6 +17,7 @@ Description: Datasets and utility code for the text analysis course.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends:
