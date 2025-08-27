@@ -2,28 +2,25 @@ Package: cmu.textstat
 Title: For CMU 36-468/668
 Version: 1.0
 Authors@R: 
-    person(given = "David",
-           family = "Brown",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`
+    c(
+      person(given = "David",
+             family = "Brown",
+             role = c("aut", "cre"),
+             email = "dwb2@andrew.cmu.edu",
+             comment = c(ORCID = "0000-0001-7745-6354")),
+      person(given = "Alex",
+             family = "Reinhart",
+             role = "aut",
+             email = "areinhar@stat.cmu.edu",
+             comment = c(ORCID = "0000-0002-6658-514X")))
+Description: Datasets and utility code for the text analysis course.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Depends:
-    quanteda.extras,
-    vnc,
-    mda.biber,
-    ngramr.plus,
-    R (>= 2.10)
+    R (>= 3.5.0)
 Imports:
     xml2,
     stringr
-Remotes:
-    browndw/quanteda.extras,
-    browndw/vnc,
-    browndw/mda.biber,
-    browndw/ngramr.plus
