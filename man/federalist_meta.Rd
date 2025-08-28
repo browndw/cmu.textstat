@@ -5,6 +5,7 @@
 \alias{federalist_meta}
 \title{Federalist paper metadata}
 \format{
+Data frame with four columns:
 \describe{
 \item{doc_id}{Document ID, giving the number of the Federalist paper}
 \item{author_id}{Author: Hamilton, Madison, Jay, \code{Hamilton_Madison} (collaboration of both), or Disputed}

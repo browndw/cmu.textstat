@@ -5,6 +5,7 @@
 \alias{federalist_papers}
 \title{Federalist papers}
 \format{
+readtext data frame with two columns:
 \describe{
 \item{doc_id}{Document ID, giving the number of the Federalist paper}
 \item{text}{Full text of the paper}
@@ -17,6 +18,6 @@ federalist_papers
 Contains the full text of the 85 Federalist Papers.
 }
 \seealso{
-\link{federalist_meta}
+\link{federalist_meta}, \code{\link[readtext:readtext]{readtext::readtext()}}
 }
 \keyword{datasets}
