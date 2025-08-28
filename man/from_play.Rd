@@ -8,17 +8,24 @@ from_play(plays, extract)
 }
 \arguments{
 \item{plays}{A readtext dataframe containing a doc_id column and a text
-column.}
+column, such as the \code{shakespeare_corpus} data frame distributed with this
+package.}
 
 \item{extract}{A character vector specifying what is to be extracted:
 'dialogue' or 'direction' for dialogue or stage directions, or the name of
 a character (e.g., 'romeo') for one character's dialogue only.}
 }
 \value{
-A readtext dataframe with the extracted text.
+A readtext dataframe with the extracted text. If the given character
+name only appears in certain plays, only those plays will be present.
 }
 \description{
 The Shakespeare plays and screenplays are formatted in very simple markup.
 With this function, either the dialogue or the direction can be execrated in
 bulk. It can also be used to extract the dialogue of specific characters.
+}
+\examples{
+dialogue <- from_play(shakespeare_corpus, "dialogue")
+
+romeo <- from_play(shakespeare_corpus, "romeo")
 }
